@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/index.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Team Portofolio RPL</title>
+  </head>
+  <body class="bg-white-custom h-fit font-jakarta" style="max-width: 100vw">
+    <nav
+      class="p-3 px-5 font-jakarta bg-gray-custom flex justify-between text-lg"
+    >
+      <h4>HOME</h4>
+      <ul class="flex w-1/4 justify-between">
+        <a href="#showcase">
+          <li>SHOWCASE</li>
+        </a>
+        <a href="#member">
+          <li>MEMBER</li>
+        </a>
+        <a href="#about">
+          <li>ABOUT</li>
+        </a>
+      </ul>
+    </nav>
+    <main class="h-screen px-20 flex items-center justify-between">
+      <div class="flex flex-col h-[100%] justify-center gap-4">
+        <h1 class="font-bold text-8xl text-dark-custom hidden-left">
+          Team <br />
+          Portfolio
+        </h1>
+        <h2 class="font-bold font-jakarta text-dark-custom text-xl hidden-left">
+          Minimalist Portfolio for your work.
+        </h2>
+        <p class="font-jakarta text-dark-custom text-lg w-1/3 hidden-left">
+          Show your work, side-project, educational background, achievement,
+          skill, etc.
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <img class="hidden-right" src="/home-icon.png" alt="" width="400" />
+      </div>
+    </main>
+    <section id="showcase" class="h-screen px-20 mt-20 text-dark-custom">
+      <div class="flex flex-col gap-2">
+        <h2 class="text-7xl font-jakarta font-bold hidden-left">Showcase</h2>
+        <h3 class="text-2xl hidden-left">Our work from the past.</h3>
+      </div>
+      <div class="flex mt-10 justify-between">
+        <img src="/showcase-1.jpg" alt="" class="w-[45%] h-96 hidden-left" />
+        <img src="/showcase-2.jpg" alt="" class="w-[45%] h-96 hidden-right" />
+      </div>
+    </section>
+    <section id="member" class="h-screen px-20 mt-20 text-dark-custom">
+      <div class="flex flex-col gap-2">
+        <h2 class="text-7xl font-jakarta font-bold hidden-left">Team Member</h2>
+        <h3 class="text-2xl hidden-left">Meet our team.</h3>
+      </div>
+      <div class="flex justify-between">
+        <div
+          class="flex flex-col mt-10 rounded-2xl shadow-md p-5 gap-4 w-[30%] justify-between font-jakarta text-dark-custom bg-yellow-custom hidden-vertical"
+        >
+          <div class="">
+            <h4 class="text-2xl font-bold text-dark-custom">John Doe</h4>
+            <h5 class="text-lg text-dark-custom">Team Leader</h5>
+          </div>
+          <img src="/people-1.png" alt="" />
+        </div>
+        <div
+          class="flex flex-col mt-10 rounded-2xl shadow-md p-5 gap-4 w-[30%] justify-between font-jakarta text-dark-custom bg-yellow-custom hidden-vertical"
+        >
+          <div class="">
+            <h4 class="text-2xl font-bold text-dark-custom">John Doe</h4>
+            <h5 class="text-lg text-dark-custom">Member</h5>
+          </div>
+          <img src="/people-2.png" alt="" />
+        </div>
+        <div
+          class="flex flex-col mt-10 rounded-2xl shadow-md p-5 gap-4 w-[30%] justify-between font-jakarta text-dark-custom bg-yellow-custom hidden-vertical"
+        >
+          <div class="">
+            <h4 class="text-2xl font-bold text-dark-custom">John Doe</h4>
+            <h5 class="text-lg text-dark-custom">Member</h5>
+          </div>
+          <img src="/people-3.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="h-screen px-20 mt-20 text-dark-custom">
+      <div class="flex flex-col gap-2">
+        <h2 class="text-7xl font-jakarta font-bold hidden-left">About</h2>
+        <h3 class="text-2xl hidden-left">About our website.</h3>
+      </div>
+      <p class="w-1/2 mt-5 text-lg text-dark-custom font-jakarta">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+        sapiente sequi similique quasi autem consequuntur repellendus! Officiis
+        blanditiis culpa atque. Nihil assumenda earum voluptate mollitia,
+        possimus laboriosam. Vitae, ducimus quaerat ipsum possimus, suscipit
+        delectus non deserunt quae, ipsam esse eveniet perspiciatis! Facere
+        commodi consequatur minima iure excepturi corporis molestiae dolorum?
+      </p>
+    </section>
+    <!-- <div id="app"></div> -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
